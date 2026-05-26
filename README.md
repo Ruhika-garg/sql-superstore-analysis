@@ -9,11 +9,25 @@ The dataset was imported from a CSV file which I downloaded from Kaggle into SQL
 * SQLite Online
 * Kaggle (Superstore Sales Dataset)
 * GitHub
+
+## Dataset Information
+This project is based on the Sample Superstore dataset available on Kaggle which consists of almost 9994 rows and 19 columns.
+The columns contain information such as Order ID, Order Date, Ship Date, Category, Sub-Category, Product ID, Product Name, Customer ID, Segment, Region, State, City, Sales, Profit etc.
+
+## Questions Explored
+* What are the total sales and profit for each product category?
+* What is the total sales contribution of each region?
+* What is the profit margin for each category?
+* Which sub-categories are loss-making (negative total profit)?
+* Classify orders into High (>500), Medium (200–500), Low (<200) value buckets. How many orders fall in each?
+* Who are the top 5 customers by total sales in each region?
+* Rank sub-categories by sales within each category.
+* Which products generate high sales(>5000) but negative profit?
   
 ## Key Insights
 * Technology category generated the highest sales and profit across all regions.
 * Furniture category has lowest profit margin despite having larger sales.
-* Some sub-categories showed negative profitability despite strong sales.
+* Some sub-categories showed negative profitability despite strong sales like Bookcases, Supplies and Tables.
 * Higher discounts were often associated with lower profit margins(Furniture).
 * Regional sales performance varied significantly across categories.
 
